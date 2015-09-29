@@ -61,7 +61,7 @@ model.add(Dropout(0.5))
 model.add(Dense(128, nb_classes))
 model.add(Activation('softmax'))
 
-model.compile(loss='categorical_crossentropy', optimizer='adadelta')#, theano_mode='DebugMode')
+model.compile(loss='categorical_crossentropy', optimizer='adadelta')
 
 model.fit(X_train, Y_train, batch_size=batch_size, nb_epoch=nb_epoch, show_accuracy=True, verbose=1, validation_data=(X_test, Y_test))
 score = model.evaluate(X_test, Y_test, show_accuracy=True, verbose=0)
