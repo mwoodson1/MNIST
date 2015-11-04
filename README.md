@@ -1,7 +1,7 @@
 # 1000 Ways to MNIST
-A collection of MNIST deep learning solutions using various librariries. Implementations include:
-- Caffe
-- Keras
+My way of getting familiar with deep learning or other machine learning frameworks is by example so included is an implementation of an abitrary architecture I chose in various different frameworks.
+
+Implementations include:
 - Lasagne
 - Keras
 - Chainer
@@ -9,4 +9,3 @@ A collection of MNIST deep learning solutions using various librariries. Impleme
 - Torch
 - Blocks
 
-Performance and speeds are also noted below. 
